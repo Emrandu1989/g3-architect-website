@@ -11,7 +11,10 @@
     height: 64px; 
     border-radius: 8px;
     background: #FF900E;
-    flex-shrink: 0;
+    border: none;
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 /* header styles */
@@ -60,4 +63,30 @@ font-weight: 700;
     color:  #727272;
     font-size: 1rem;
     font-weight: 400; 
+}
+.banner img{
+    width: 100%;
+}
+
+
+/* responsive media queries styles */
+/* mobile devices */
+@media screen and (max-width:576px) {
+       header{
+        padding: 20px;
+       }
+       nav{
+        flex-direction: column;
+       }
+
+}
+/*  tablet or medium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+
+    header{
+        padding: 50px;
+       }
+    nav{
+        flex-direction: column;
+       }
 }
