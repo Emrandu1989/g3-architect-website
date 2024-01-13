@@ -208,12 +208,13 @@ footer{
 /* mobile devices */
 @media screen and (max-width: 576px) {
   header {
-    padding: 20px;
+    padding: 40px;
   }
   nav,
   .facts-card-container,
   .sponsors-img-container, .features {
     flex-direction: column;
+    padding-right: 0px;
   }
   .feature-img img{
     width: 95%;
@@ -236,6 +237,11 @@ footer{
   .teams-content h2 {
     font-size: 1.8rem;
   }
+  footer{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
 /*  tablet or medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -257,5 +263,10 @@ footer{
   .teams-content {
     width: 100%;
     margin-left: 50px;
+  }
+  footer{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
   }
 }
