@@ -121,6 +121,10 @@ span.quick {
   align-items: center;
   gap: 40px;
 }
+.feature-img img{
+  height: 90%;
+  margin-left: 90px;
+}
 .features .section-title{
     border-left: 5px solid #FF900E;
     margin-left: 20px;
@@ -137,12 +141,21 @@ span.quick {
   background: #FF900E;
   color: white;
   font-weight: 700;
-  width: 342;
-  padding: 40px;
+  width: 342px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+  height: 150px;
 
 }
 .ten-years-badge h2{
-  font-size: 4rem;
+  font-size: 2rem;
+  margin:0;
+}
+.ten-years-badge p{
+   font-size: 1.rem;
+   
 }
 /* facts section */
 .facts-card-container {
@@ -189,8 +202,12 @@ span.quick {
   }
   nav,
   .facts-card-container,
-  .sponsors-img-container {
+  .sponsors-img-container, .features {
     flex-direction: column;
+  }
+  .feature-img img{
+    width: 95%;
+    margin-left: 0px;
   }
 
   /* team section styles */
@@ -215,7 +232,7 @@ span.quick {
   header {
     padding: 50px;
   }
-  nav,
+  nav, .features,
   .teams,
   .sponsors-img-container {
     flex-direction: column;
